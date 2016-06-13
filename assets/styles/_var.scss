@@ -1,0 +1,54 @@
+// ------------------ FONTS ------------------ \\
+
+// ROBOTO WEBFONT PROVIDED BY GOOGLE ♥
+
+@import url("http://fonts.googleapis.com/css?family=Roboto:400,100,300,300italic,100italic,400italic,500,500italic,700,700italic,900,900italic");
+
+$font: 'Roboto', Arial, sans-serif;
+
+
+// ------------------ SCREEN SIZES ------------------ \\
+
+// Here we define the lower and upper bounds for each media size
+
+$medium : '980px';
+$regular : '1280px';
+$large : '1920px';
+ 
+
+// ------------------ COLORS ------------------ \\
+
+//TURQUOISE
+$turquoise: #1abc9c; 		
+$greenSea: #16a085;
+//GREEN
+$emerald: #2ecc71;
+$nephritis: #27ae60; 		
+//BLUE
+$peterRiver: #3498db;		
+$belizeHole: #2980b9;	
+//PURPLE
+$amethyst: #9b59b6;
+$wisteria: #8e44ad;	
+//DARK GREY
+$wetAsphalt: #34495e;		
+$midnightBlue: #2c3e50;	
+//YELLOW
+$sunFlower: #f1c40f;
+$orange: #f39c12;	
+//ORANGE
+$carrot: #e67e22;			
+$pumpkin: #d35400;
+//RED
+$alizarin: #e74c3c;
+$pomegranate: #c0392b;
+//LIGHT GREY
+$concret: #95a5a6;
+$abestos: #7f8c8d;		
+//WHITE
+$clouds: #ecf0f1;			
+$silver: #bdc3c7;			
+
+
+
+

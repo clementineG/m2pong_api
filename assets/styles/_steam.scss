@@ -1,0 +1,35 @@
+/* ------------ BASE INITIALISATION ------------ */
+
+html, body {
+	height: 100%;
+	position: relative;
+}
+
+/* ------------ PADDING ARE NICE NOW ! ------------ */
+
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/* ------------------  CLEARFIX  ------------------ */
+
+.clearfix:before,
+.clearfix:after {
+	content: " "; /* 1 */
+	display: table; /* 2 */
+}
+.clearfix:after {clear: both;}
+.clearfix {*zoom: 1;} // For IE 6/7 only //
+
+/* ------------------  HIDDERS  ------------------ */
+
+// Hide from screenreaders and browsers
+.hidden {
+	display: none;
+	visibility: hidden;
+}
+// Hide visually but maintain layout
+.invisible {
+	visibility: hidden;
+}

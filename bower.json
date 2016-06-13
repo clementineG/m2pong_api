@@ -1,0 +1,24 @@
+{
+  "name": "bower",
+  "description": "a Sails application",
+  "main": "app.js",
+  "authors": [
+    "Clem"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/clementineG/m2pong_api",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "angular": "1.4.8",
+    "angular-moment": "~0.10.3",
+    "angular-route": "~1.4.8",
+    "angular-mocks": "~1.4.8",
+    "jquery": "jQuery#~2.1.4"
+  }
+}
